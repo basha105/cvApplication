@@ -26,7 +26,7 @@ export default function Education() {
             handleSubmit();
         }}>
             <div>
-                <label for="uni">University: </label>
+                <label htmlFor="uni">University: </label>
                 <input type="text" placeholder="University" value={uni} onChange={e => setUni(e.target.value)}/>
             </div>
 
